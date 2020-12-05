@@ -1,5 +1,4 @@
-en:
-  hello: "Hello world"
+vi:
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -17,27 +16,28 @@ en:
   static_pages:
     home:
       title: "Trang chu"
-      home_page: "This is the home page for the"
+      home_page: "Đây là trang chủ của"
       sample_app: "sample application."
       link_title_1: "Ruby on Rails Tutorial"
       link_rails: "https://www.railstutorial.org/"
     help:
       title: "Help"
-      link_title_tutorial: "Get help on the Ruby on Rails Tutorial at the"
-      link_about: "To get help on this sample app, see the "
+      link_title_tutorial: "Bạn có thể tìm trợ giúp ở the Ruby on Rails Tutorial tại "
+      link_about: "Để hiểu thêm về trang web, truy cập "
       link_title_rails: "Ruby on Rails Tutorial book"
       link_title_1: "Rails Tutorial Help page"
     about:
-      title: "About us"
+      title: "Về chúng tôi"
       link_title_tutorial: "Ruby on Rails Tutorial"
       link_title_1: "part of the"
       link_learn: "Learn Enough"
       link_title_2: "family of tutorials, is a"
-      link_title_3: "and"
+      link_title_and: "and"
       link_book: "book"
       link_title_3: "to teach web development with"
       link_rails: "Ruby on Rails"
       link_title_4: "This is the sample app for the tutorial"
+      link_title_5: "screencast series"
     contact:
     title: "Contact"
     link_title_1: "Contact the Ruby on Rails Tutorial about the sample app at the"
