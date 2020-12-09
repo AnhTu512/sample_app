@@ -111,6 +111,7 @@ GEM
     msgpack (1.3.3-java)
     msgpack (1.3.3-x64-mingw32)
     msgpack (1.3.3-x86-mingw32)
+    mysql2 (0.4.10)
     nio4r (2.5.4)
     nio4r (2.5.4-java)
     nokogiri (1.10.10)
@@ -147,6 +148,9 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.3.0)
       loofah (~> 2.3)
+    rails-i18n (5.1.3)
+      i18n (>= 0.7, < 2)
+      railties (>= 5.0, < 6)
     railties (5.2.4.4)
       actionpack (= 5.2.4.4)
       activesupport (= 5.2.4.4)
@@ -199,7 +203,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.2)
     thor (1.0.1)
     thread_safe (0.3.6)
     thread_safe (0.3.6-java)
@@ -242,8 +245,10 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
+  mysql2
   puma (~> 3.11)
   rails (~> 5.2.4, >= 5.2.4.4)
+  rails-i18n
   rubocop (~> 0.74.0)
   rubocop-checkstyle_formatter
   rubocop-rails (~> 2.3.2)
@@ -251,7 +256,6 @@ DEPENDENCIES
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
-  sqlite3
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)
