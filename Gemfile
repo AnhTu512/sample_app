@@ -3,7 +3,6 @@ git_source(:github) {|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.7.2"
 
-gem "bootstrap-sass", "3.4.1"
 gem "rails", "~> 5.2.4", ">= 5.2.4.4"
 gem "rails-i18n"
 gem "mysql2"
