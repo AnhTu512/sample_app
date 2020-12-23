@@ -1,13 +1,13 @@
-<% provide(:title, "About") %>
-<h1><%= t(".title")</h1>
-<p>
-  <%= link_to t(".link_title_tutorial"), "https://www.railstutorial.org/" %>, <%= t(".link_title_1") %>
-  <%= link_to t(".link_learn"), "https://www.learnenough.com/" %> 
-  <%= t(".link_title_2")%>
-  <%= link_to t(".link_book", "https://www.railstutorial.org/book" %> <%= t(".link_title_and") %>
-  <%= link_to t(".link_title_5"), "https://screencasts.railstutorial.org/" %>
-  <%= t(".link_title_3") %>
-  <%= link_to t(".link_rails"), "https://rubyonrails.org/" %>.
-  <%= t(".link_title_4")%>
-</p>
-
+    <% provide(:title, "About") %>
+    <h1>About</h1>
+    <p>
+      The <%= link_to "Ruby on Rails
+      Tutorial", "https://www.railstutorial.org/" %>, part of the
+      <%= link_to "Learn Enough", "https://www.learnenough.com/" %> family of
+      tutorials, is a
+      <%= link_to "book", "https://www.railstutorial.org/book" %> and
+      <%= link_to "screencast series", "https://screencasts.railstutorial.org/" %>
+      to teach web development with
+      <%= link_to "Ruby on Rails", "https://rubyonrails.org/" %>.
+      This is the sample app for the tutorial.
+    </p>
